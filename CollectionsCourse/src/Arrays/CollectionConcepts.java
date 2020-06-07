@@ -19,17 +19,32 @@ public class CollectionConcepts {
 
         final Iterator<Product> productIterator = products.iterator();
 
-        //Printing with while:
-//        while (productIterator.hasNext()){
-//            Product product = productIterator.next();
-//            System.out.println(product);
-//        }
+        System.out.println("Printing with while:");
+        while (productIterator.hasNext()) {
+            Product product = productIterator.next();
+            System.out.println(product);
+        }
 
         //Printing with foreach
+        System.out.println("Printing with foreach");
         for (Product product : products) {
             System.out.println(product);
         }
 
-
+        //Print all products with weight >20
+        System.out.println("Print all products with weight >20");
+        while (productIterator.hasNext()) {
+            Product product = productIterator.next();
+            if (product.getWeight() > 20) {
+                System.out.println(product);
+            } else {
+                productIterator.remove(); //using iterator for removing elements from a collection
+            }
+        }
+        System.out.println(products);
+        //Size
+        System.out.println("Collection size: " + products.size());
+        System.out.println("Collection is empty (true/false): " + products.isEmpty());
     }
+
 }
