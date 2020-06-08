@@ -45,6 +45,14 @@ public class CollectionConcepts {
         //Size
         System.out.println("Collection size: " + products.size());
         System.out.println("Collection is empty (true/false): " + products.isEmpty());
+        System.out.println("Collection contains windows: " + products.contains(window));
+        System.out.println("Collection contains door: " + products.contains(door));
+
+        Collection<Product> otherProducts = new ArrayList<>();
+        otherProducts.add(window);
+        otherProducts.add(door);
+        products.removeAll(otherProducts);
+        System.out.println("After using removeAll: " + products);
     }
 
 }
