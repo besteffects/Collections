@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="13" />
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../CollectionsCourse" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../Gradle" value="PREVIEW" />
+        <entry key="$PROJECT_DIR$/../../PL" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="29" />
     <option name="y" value="23" />
-    <option name="width" value="1427" />
-    <option name="height" value="804" />
+    <option name="width" value="1411" />
+    <option name="height" value="806" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -17,26 +33,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager">
-    <configuration name="CollectionConcepts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arrays.CollectionConcepts" />
-      <module name="CollectionsCourse" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.CollectionConcepts" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="masterDetails">
     <states>
