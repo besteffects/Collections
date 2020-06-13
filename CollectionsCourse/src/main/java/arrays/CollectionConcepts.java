@@ -10,6 +10,9 @@ public class CollectionConcepts {
         Product floorPanel = new Product("Floor Panel", 25);
         Product window = new Product("Glass Window", 10);
 
+
+        Set<String> set2 = new TreeSet<>();
+
         Collection<Product> products = new ArrayList<Product>();
         products.add(door);
         products.add(floorPanel);

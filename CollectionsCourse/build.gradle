@@ -1,0 +1,26 @@
+plugins {
+    id 'application'
+}
+
+apply plugin: 'java'
+
+defaultTasks 'clean', 'build'
+
+sourceCompatibility = 1.7
+version = '1.0'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:26.0-jre'
+
+    testImplementation 'junit:junit:4.12'
+}
+
+mainClassName = 'arrays.CollectionConcepts'
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    testCompile group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
+}
