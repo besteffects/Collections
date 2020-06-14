@@ -1,8 +1,8 @@
-package arrays;
+package _2_Arrays;
 
 import java.util.Arrays;
 
-public class TheArrayProblem {
+class TheArrayProblem {
     public static void main(String[] args) {
         Product door = new Product("Wooden Door", 35);
         Product floorPanel = new Product("Floor panel", 25);

@@ -1,4 +1,4 @@
-package arrays;
+package _2_Arrays;
 
 import java.util.*;
 
@@ -7,9 +7,6 @@ public class CollectionConcepts {
         Product door = new Product("Wooden Door", 35);
         Product floorPanel = new Product("Floor Panel", 25);
         Product window = new Product("Glass Window", 10);
-
-
-        Set<String> set2 = new TreeSet<>();
 
         Collection<Product> products = new ArrayList<Product>();
         products.add(door);

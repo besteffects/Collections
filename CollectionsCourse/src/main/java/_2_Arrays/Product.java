@@ -1,4 +1,4 @@
-package arrays;
+package _2_Arrays;
 
 import java.util.Comparator;
 

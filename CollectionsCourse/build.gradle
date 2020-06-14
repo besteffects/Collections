@@ -19,7 +19,7 @@ dependencies {
     testImplementation 'junit:junit:4.12'
 }
 
-mainClassName = 'arrays.CollectionConcepts'
+mainClassName = '_2_Arrays.CollectionConcepts'
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
     testCompile group: 'org.hamcrest', name: 'hamcrest-all', version: '1.3'
