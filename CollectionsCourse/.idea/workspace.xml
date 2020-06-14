@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbeb4b68-d6ee-4227-b8d4-681960c32f55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -121,8 +120,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="34" />
+            <state relative-caret-position="207">
+              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -355,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShipmentTest.shouldReplaceItems">
+  <component name="RunManager" selected="JUnit.ShipmentTest.shouldNotReplaceMissingItems">
     <configuration name="CollectionsCourse [compileTestJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -394,23 +393,6 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="CollectionsCourse" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="ShipmentTest.shouldAddItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CollectionsCourse.test" />
       <extension name="coverage">
@@ -422,6 +404,22 @@
       <option name="PACKAGE_NAME" value="demo" />
       <option name="MAIN_CLASS_NAME" value="demo.ShipmentTest" />
       <option name="METHOD_NAME" value="shouldAddItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShipmentTest.shouldNotReplaceMissingItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CollectionsCourse.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.ShipmentTest" />
+      <option name="METHOD_NAME" value="shouldNotReplaceMissingItems" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -445,11 +443,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShipmentTest.shouldNotReplaceMissingItems" />
         <item itemvalue="JUnit.ShipmentTest.shouldReplaceItems" />
         <item itemvalue="JUnit.ShipmentTest.shouldAddItems" />
         <item itemvalue="Gradle.CollectionsCourse [compileTestJava]" />
         <item itemvalue="Gradle.CollectionsCourse [test]" />
-        <item itemvalue="Gradle.CollectionsCourse" />
       </list>
     </recent_temporary>
   </component>
@@ -489,6 +487,9 @@
       <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ShipmentTest_shouldReplaceItems - 2020.06.14 at 19h 01m 33s.xml">
+      <configuration name="ShipmentTest.shouldReplaceItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShipmentTest_shouldReplaceItems - 2020.06.14 at 19h 01m 58s.xml">
       <configuration name="ShipmentTest.shouldReplaceItems" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -635,8 +636,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="34" />
+        <state relative-caret-position="207">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
