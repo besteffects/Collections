@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbeb4b68-d6ee-4227-b8d4-681960c32f55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -102,21 +103,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_2_Arrays/CollectionConcepts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="139">
+              <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+                <element signature="e#636#637#0" expanded="true" />
+                <element signature="e#683#684#0" expanded="true" />
+                <element signature="e#710#711#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,8 +121,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="24" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="360">
+              <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -227,14 +223,15 @@
         <option value="$PROJECT_DIR$/src/main/java/_3Lists/ShipmentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/_3_Lists/ProductFixtures.java" />
         <option value="$PROJECT_DIR$/src/main/java/_3_Lists/ShipmentTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="685" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="755" />
     <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -243,18 +240,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="CollectionsCourse" type="b2602c69:ProjectViewProjectNode" />
               <item name="CollectionsCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="CollectionsCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CollectionsCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CollectionsCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -296,14 +288,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="_2_Arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CollectionsCourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CollectionsCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="_3_Lists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -331,7 +315,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,6 +328,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.gradle.running" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -370,8 +355,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShipmentTest.shouldAddItems">
-    <configuration name="CollectionsCourse [dependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="JUnit.ShipmentTest.shouldReplaceItems">
+    <configuration name="CollectionsCourse [compileTestJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -382,26 +367,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="dependencies" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CollectionsCourse [init]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="init" />
+            <option value="compileTestJava" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -461,13 +427,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShipmentTest.shouldReplaceItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CollectionsCourse.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.ShipmentTest" />
+      <option name="METHOD_NAME" value="shouldReplaceItems" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShipmentTest.shouldReplaceItems" />
         <item itemvalue="JUnit.ShipmentTest.shouldAddItems" />
+        <item itemvalue="Gradle.CollectionsCourse [compileTestJava]" />
         <item itemvalue="Gradle.CollectionsCourse [test]" />
         <item itemvalue="Gradle.CollectionsCourse" />
-        <item itemvalue="Gradle.CollectionsCourse [dependencies]" />
-        <item itemvalue="Gradle.CollectionsCourse [init]" />
       </list>
     </recent_temporary>
   </component>
@@ -497,12 +479,24 @@
     <history-entry file="ShipmentTest_shouldAddItems - 2020.06.14 at 12h 23m 32s.xml">
       <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ShipmentTest_shouldAddItems - 2020.06.14 at 12h 24m 24s.xml">
+      <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShipmentTest_shouldAddItems - 2020.06.14 at 12h 27m 46s.xml">
+      <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShipmentTest_shouldAddItems - 2020.06.14 at 12h 31m 40s.xml">
+      <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShipmentTest_shouldReplaceItems - 2020.06.14 at 19h 01m 33s.xml">
+      <configuration name="ShipmentTest.shouldReplaceItems" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <frame x="685" y="23" width="755" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12517883" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24824685" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -511,7 +505,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32913166" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32913166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,7 +520,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.10729614" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.5332429" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -557,26 +551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/java-fundamentals-collections/03/demos/src/test/java/com/monotonic/collections/_3_lists/ShipmentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,10 +595,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/java-fundamentals-collections/03/demos/src/test/java/com/monotonic/collections/_3_lists/ShipmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-all/1.3/47e033b7ab18c5dbd5fe29fc1bd5a40afe028818/hamcrest-all-1.3-sources.jar!/org/hamcrest/Matchers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2397">
+          <caret line="825" column="74" selection-start-line="825" selection-start-column="74" selection-end-line="825" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="591" column="6" selection-start-line="591" selection-start-column="6" selection-end-line="591" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#683#684#0" expanded="true" />
+            <element signature="e#710#711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="24" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="360">
+          <caret line="24" column="25" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
