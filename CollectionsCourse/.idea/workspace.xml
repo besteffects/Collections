@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbeb4b68-d6ee-4227-b8d4-681960c32f55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_3_Lists/ProductFixtures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/CollectionConcepts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2_Arrays/CollectionConcepts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2_Arrays/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arrays/TheArrayProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2_Arrays/TheArrayProblem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -114,9 +106,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
               <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
-              <folding>
-                <element signature="e#354#363#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -124,12 +113,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="240">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#746#747#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -138,8 +125,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="225">
+              <caret line="15" column="24" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,7 +137,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Downloads/java-fundamentals-collections/03/demos/src/test/java/com/monotonic/collections/_3_lists/ShipmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="45">
               <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -197,7 +184,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/_2_Arrays/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-62">
+            <state relative-caret-position="60">
               <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
             </state>
           </provider>
@@ -206,7 +193,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/_2_Arrays/TheArrayProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-32">
+            <state relative-caret-position="60">
               <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
@@ -246,9 +233,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="466" />
-    <option name="y" value="36" />
-    <option name="width" value="807" />
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
     <option name="height" value="806" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -257,6 +243,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,7 +331,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -357,7 +343,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -502,11 +488,21 @@
     <history-entry file="CollectionsCourse_[test] - 2020.06.14 at 12h 11m 27s.xml">
       <configuration name="CollectionsCourse [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="ShipmentTest_shouldAddItems - 2020.06.14 at 12h 22m 50s.xml">
+      <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShipmentTest_shouldAddItems - 2020.06.14 at 12h 23m 11s.xml">
+      <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShipmentTest_shouldAddItems - 2020.06.14 at 12h 23m 32s.xml">
+      <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="420" y="61" width="807" height="806" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22614379" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12517883" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -515,7 +511,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32913166" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32913166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -530,7 +526,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" />
-      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.38562092" />
+      <window_info anchor="right" id="Gradle" order="5" visible="true" weight="0.10729614" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
@@ -557,39 +553,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CollectionsCourse.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#97#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_2_Arrays/CollectionConcepts.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="41" selection-start-line="34" selection-start-column="41" selection-end-line="34" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
-            <element signature="e#354#363#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Downloads/java-fundamentals-collections/03/demos/src/test/java/com/monotonic/collections/_3_lists/ShipmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="45">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -604,36 +587,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="45">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#746#747#0" expanded="true" />
+            <element signature="e#0#97#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CollectionsCourse.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_2_Arrays/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62">
+        <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_2_Arrays/TheArrayProblem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-32">
+        <state relative-caret-position="60">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="225">
+          <caret line="15" column="24" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -690,7 +681,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>main|CollectionsCourse</last-edited>
+          <last-edited>CollectionsCourse</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
