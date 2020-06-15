@@ -1,6 +1,8 @@
 package _2_Arrays;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
 
 public class CollectionConcepts {
     public static void main(String[] args) {

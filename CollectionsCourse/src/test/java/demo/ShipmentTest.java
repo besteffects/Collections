@@ -16,7 +16,6 @@ public class ShipmentTest {
     public void shouldAddItems() throws Exception {
         shipment.add(door);
         shipment.add(window);
-        shipment.replace(door, floorPanel);
 
         assertThat(shipment, contains(door, window));
     }

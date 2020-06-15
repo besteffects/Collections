@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbeb4b68-d6ee-4227-b8d4-681960c32f55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/_3_Lists/Shipment.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/_3_Lists/Shipment.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/demo/ShipmentTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/demo/ShipmentTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_2_Arrays/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_2_Arrays/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -108,11 +105,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+            <state relative-caret-position="330">
+              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#383#384#0" expanded="true" />
@@ -131,8 +128,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="328">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="244">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,11 +184,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/_2_Arrays/Product.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            <state relative-caret-position="84">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -214,6 +211,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -233,8 +235,9 @@
         <option value="$PROJECT_DIR$/src/main/java/_3Lists/ShipmentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/_3_Lists/ProductFixtures.java" />
         <option value="$PROJECT_DIR$/src/main/java/_3_Lists/ShipmentTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java" />
+        <option value="$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_2_Arrays/Product.java" />
       </list>
     </option>
   </component>
@@ -290,6 +293,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CollectionsCourse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CollectionsCourse" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="_2_Arrays" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="CollectionsCourse" type="b2602c69:ProjectViewProjectNode" />
@@ -365,25 +376,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ShipmentTest.shouldIdentifyVanRequirements">
-    <configuration name="CollectionsCourse [compileTestJava]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="compileTestJava" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
+  <component name="RunManager" selected="JUnit.All in CollectionsCourse.test">
+    <configuration name="All in CollectionsCourse.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CollectionsCourse.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="ShipmentTest.shouldAddItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CollectionsCourse.test" />
@@ -451,11 +451,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShipmentTest.shouldIdentifyVanRequirements" />
-        <item itemvalue="JUnit.ShipmentTest.shouldNotReplaceMissingItems" />
+        <item itemvalue="JUnit.All in CollectionsCourse.test" />
         <item itemvalue="JUnit.ShipmentTest.shouldReplaceItems" />
         <item itemvalue="JUnit.ShipmentTest.shouldAddItems" />
-        <item itemvalue="Gradle.CollectionsCourse [compileTestJava]" />
+        <item itemvalue="JUnit.ShipmentTest.shouldIdentifyVanRequirements" />
+        <item itemvalue="JUnit.ShipmentTest.shouldNotReplaceMissingItems" />
       </list>
     </recent_temporary>
   </component>
@@ -473,27 +473,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ShipmentTest_shouldAddItems - 2020.06.14 at 12h 24m 24s.xml">
-      <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShipmentTest_shouldAddItems - 2020.06.14 at 12h 27m 46s.xml">
-      <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShipmentTest_shouldAddItems - 2020.06.14 at 12h 31m 40s.xml">
-      <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShipmentTest_shouldReplaceItems - 2020.06.14 at 19h 01m 33s.xml">
-      <configuration name="ShipmentTest.shouldReplaceItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShipmentTest_shouldReplaceItems - 2020.06.14 at 19h 01m 58s.xml">
-      <configuration name="ShipmentTest.shouldReplaceItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShipmentTest_shouldNotReplaceMissingItems - 2020.06.14 at 19h 08m 04s.xml">
-      <configuration name="ShipmentTest.shouldNotReplaceMissingItems" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ShipmentTest_shouldNotReplaceMissingItems - 2020.06.14 at 19h 10m 36s.xml">
-      <configuration name="ShipmentTest.shouldNotReplaceMissingItems" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ShipmentTest_shouldIdentifyVanRequirements - 2020.06.14 at 19h 16m 07s.xml">
       <configuration name="ShipmentTest.shouldIdentifyVanRequirements" configurationId="JUnit" />
     </history-entry>
@@ -502,6 +481,27 @@
     </history-entry>
     <history-entry file="ShipmentTest_shouldIdentifyVanRequirements - 2020.06.14 at 19h 53m 05s.xml">
       <configuration name="ShipmentTest.shouldIdentifyVanRequirements" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShipmentTest_shouldIdentifyVanRequirements - 2020.06.14 at 20h 03m 04s.xml">
+      <configuration name="ShipmentTest.shouldIdentifyVanRequirements" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CollectionsCourse_test - 2020.06.15 at 04h 06m 20s.xml">
+      <configuration name="All in CollectionsCourse.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShipmentTest_shouldAddItems - 2020.06.15 at 04h 06m 50s.xml">
+      <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShipmentTest_shouldAddItems - 2020.06.15 at 04h 07m 38s.xml">
+      <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShipmentTest_shouldAddItems - 2020.06.15 at 04h 08m 06s.xml">
+      <configuration name="ShipmentTest.shouldAddItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ShipmentTest_shouldReplaceItems - 2020.06.15 at 04h 09m 26s.xml">
+      <configuration name="ShipmentTest.shouldReplaceItems" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_CollectionsCourse_test - 2020.06.15 at 04h 09m 58s.xml">
+      <configuration name="All in CollectionsCourse.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -517,7 +517,7 @@
     <frame x="685" y="23" width="755" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.25385696" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.14025246" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.25385696" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -526,7 +526,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50104386" side_tool="true" weight="0.25385696" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32913166" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32913166" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -599,13 +599,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_3_Lists/ProductFixtures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/module-info.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -626,13 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_2_Arrays/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_2_Arrays/TheArrayProblem.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -640,20 +626,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_3_Lists/ProductFixtures.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="67" selection-start-line="7" selection-start-column="67" selection-end-line="7" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_3_Lists/Shipment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        <state relative-caret-position="330">
+          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#383#384#0" expanded="true" />
@@ -665,6 +648,23 @@
             <element signature="e#1092#1093#0" expanded="true" />
             <element signature="e#1134#1135#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/demo/ShipmentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_2_Arrays/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>

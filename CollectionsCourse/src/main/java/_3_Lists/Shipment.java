@@ -11,8 +11,8 @@ public class Shipment implements Iterable<Product> {
     private static int LIGHT_VAN_MAX_WEIGHT = 20;
     private final List<Product> products = new ArrayList<>();
 
-    private List<Product>lightVanProducts;
-    private List<Product>heavyVanProducts;
+    private List<Product> lightVanProducts;
+    private List<Product> heavyVanProducts;
 
     public void add(Product product) {
         products.add(product);
@@ -34,14 +34,14 @@ public class Shipment implements Iterable<Product> {
         //find the product index that needs the heavy van
         int splitPOint = findSplitPoint();
         //assign views of the product list for heavy and light vans
-    lightVanProducts=products.subList(0,splitPOint);
-    heavyVanProducts=products.subList(splitPOint, products.size());
+        lightVanProducts = products.subList(0, splitPOint);
+        heavyVanProducts = products.subList(splitPOint, products.size());
     }
 
     private int findSplitPoint() {
         for (int i = 0; i < products.size(); i++) {
             final Product product = products.get(i);
-            if (product.getWeight()>LIGHT_VAN_MAX_WEIGHT){
+            if (product.getWeight() > LIGHT_VAN_MAX_WEIGHT) {
                 return i;
             }
         }
