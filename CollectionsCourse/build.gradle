@@ -6,7 +6,7 @@ apply plugin: 'java'
 
 defaultTasks 'clean', 'build'
 
-//sourceCompatibility = 1.7
+sourceCompatibility = 1.8
 version = '1.0'
 
 repositories {
@@ -17,6 +17,7 @@ dependencies {
     implementation 'com.google.guava:guava:26.0-jre'
 
     testImplementation 'junit:junit:4.12'
+    testImplementation 'org.hamcrest:hamcrest:2.2'
 }
 
 mainClassName = '_2_Arrays.CollectionConcepts'
