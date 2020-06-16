@@ -8,7 +8,7 @@ import java.util.Set;
 
 public class ProductCatalogue implements Iterable<Product> {
 
-    private final Set<Product> products = new HashSet<>();
+    private Set<Product> products = new HashSet<>();
 
     public void isSuppliedBy(Supplier supplier) {
         products.addAll(supplier.products());
