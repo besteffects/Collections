@@ -18,7 +18,7 @@ public class ProductCatalogueTest {
         catalogue.isSuppliedBy(bobs);
         catalogue.isSuppliedBy(kates);
 
-       // MatcherAssert.assertThat(catalogue, containsInAnyOrder(door, floorPanel, window));
+       MatcherAssert.assertThat(catalogue, containsInAnyOrder(door, floorPanel, window));
 
     }
 }
