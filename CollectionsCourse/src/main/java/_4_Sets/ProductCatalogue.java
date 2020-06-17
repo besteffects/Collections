@@ -10,6 +10,7 @@ import java.util.TreeSet;
 public class ProductCatalogue implements Iterable<Product> {
 
     private Set<Product> products = new HashSet<>();
+
     private final Set<Product> treeSetProducts = new TreeSet<>(Product.BY_NAME); //Comparing products by name
 
 
@@ -20,4 +21,6 @@ public class ProductCatalogue implements Iterable<Product> {
     public Iterator<Product> iterator() {
         return products.iterator();
     }
+
+
 }
