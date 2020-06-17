@@ -12,6 +12,9 @@ public class Product {
         }
     };
 
+    public static final Comparator<Product> BY_NAME=
+            Comparator.comparing(Product::getName);
+
     private final String name;
     private final int weight;
 
