@@ -13,11 +13,16 @@ public class HelpDesk {
 
     //responces to Customers enquires
     public void processAllEnquires() {
-        while (!enquiries.isEmpty()) {
-            final Enquiry enquiry = enquiries.remove();
+//old inplementation
+        //        while (!enquiries.isEmpty()) {
+//            final Enquiry enquiry = enquiries.remove();
+//            enquiry.getCustomer().reply("Have you tried turning it off and on again?");
+//        }
+        Enquiry enquiry;
+        while ((enquiry = enquiries.poll()) != null) {
             enquiry.getCustomer().reply("Have you tried turning it off and on again?");
         }
-        }
+    }
 
     public static void main(String[] args) {
         HelpDesk helpDesk = new HelpDesk();
