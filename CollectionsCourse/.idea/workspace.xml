@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbeb4b68-d6ee-4227-b8d4-681960c32f55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_5_Queues/CategorisedHelpDesk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/_5_Queues/HelpDesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_5_Queues/HelpDesk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_5_Queues/CategorisedHelpDesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_5_Queues/CategorisedHelpDesk.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -119,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/HelpDesk.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="85" />
+              <caret line="22" column="58" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="85" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,8 +128,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/CategorisedHelpDesk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="103">
+              <caret line="18" column="73" lean-forward="true" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -276,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="704" />
     <option name="y" value="23" />
     <option name="width" value="736" />
@@ -421,9 +419,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelpDesk">
-    <configuration name="HelpDesk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_5_Queues.HelpDesk" />
+  <component name="RunManager" selected="Application.CategorisedHelpDesk">
+    <configuration name="CategorisedHelpDesk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_5_Queues.CategorisedHelpDesk" />
       <module name="CollectionsCourse.main" />
       <extension name="coverage">
         <pattern>
@@ -435,17 +433,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductCatalogueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CollectionsCourse.test" />
+    <configuration name="HelpDesk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_5_Queues.HelpDesk" />
+      <module name="CollectionsCourse.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="demo.*" />
+          <option name="PATTERN" value="_5_Queues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.ProductCatalogueTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -500,11 +496,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CategorisedHelpDesk" />
         <item itemvalue="Application.HelpDesk" />
         <item itemvalue="JUnit.ProductCatalogueTest.shouldFindHeavyVanProducts" />
         <item itemvalue="JUnit.ProductCatalogueTest.shouldFindLightVanProducts" />
         <item itemvalue="JUnit.ProductCatalogueTest.treeShouldOnlyHoldUniqueProducts" />
-        <item itemvalue="JUnit.ProductCatalogueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -563,10 +559,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="704" y="23" width="736" height="806" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.15561959" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.07725322" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.25385696" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -575,7 +570,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50104386" side_tool="true" weight="0.25385696" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15966387" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15966387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.16246499" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -935,7 +930,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/HelpDesk.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="85" />
+          <caret line="22" column="58" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="85" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -944,8 +939,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/CategorisedHelpDesk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="103">
+          <caret line="18" column="73" lean-forward="true" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
