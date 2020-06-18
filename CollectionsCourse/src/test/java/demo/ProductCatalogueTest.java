@@ -22,7 +22,6 @@ public class ProductCatalogueTest {
 
     }
 
-
     @Test
     public void treeShouldOnlyHoldUniqueProducts() throws Exception {
         TreeProductCatalogue catalogue = new TreeProductCatalogue();
