@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbeb4b68-d6ee-4227-b8d4-681960c32f55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/_5_Queues/CategorisedHelpDesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_5_Queues/CategorisedHelpDesk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_5_Queues/PriorityHelpDesk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -125,13 +126,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/CategorisedHelpDesk.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="18" column="73" lean-forward="true" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+            <state relative-caret-position="82">
+              <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="60" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/PriorityHelpDesk.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#296#297#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -212,15 +226,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Documents/java-fundamentals-collections/04/demos/src/main/java/com/monotonic/collections/_4_sets/TreeProductCatalogue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" selection-start-line="9" selection-end-line="48" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -271,10 +276,11 @@
         <option value="$PROJECT_DIR$/src/main/java/_5_Queues/Enquiry.java" />
         <option value="$PROJECT_DIR$/src/main/java/_5_Queues/HelpDesk.java" />
         <option value="$PROJECT_DIR$/src/main/java/_5_Queues/CategorisedHelpDesk.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_5_Queues/PriorityHelpDesk.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="704" />
     <option name="y" value="23" />
     <option name="width" value="736" />
@@ -559,9 +565,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="806" extended-state="6" />
+    <frame x="704" y="23" width="736" height="806" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.07725322" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.21325648" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.25385696" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -570,12 +577,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.50104386" side_tool="true" weight="0.25385696" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15966387" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.15966387" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.16246499" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32913166" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.16946779" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49929875" weight="0.32913166" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50070125" side_tool="true" weight="0.32913166" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32913166" />
@@ -903,19 +910,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#146#147#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/Enquiry.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -939,10 +933,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/CategorisedHelpDesk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="18" column="73" lean-forward="true" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+        <state relative-caret-position="82">
+          <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/PriorityHelpDesk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="38" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
           </folding>
         </state>
       </provider>
