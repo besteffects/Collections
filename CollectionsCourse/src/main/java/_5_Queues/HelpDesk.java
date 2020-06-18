@@ -1,21 +1,23 @@
 package _5_Queues;
 
+import java.util.ArrayDeque;
 import java.util.Queue;
 
 public class HelpDesk {
 
-    private final Queue<Enquiry> queue;
+    private final Queue<Enquiry> enquiries = new ArrayDeque<>();
 
-
-
-
-    public void enquire(final Customer customer, final Category category){
-
+    public void enquire(final Customer customer, final Category category) {
+        enquiries.offer(new Enquiry(customer, category));
     }
-//responces to Customers enquires
-    public void processAllEnquires(){
 
-    }
+    //responces to Customers enquires
+    public void processAllEnquires() {
+        while (!enquiries.isEmpty()) {
+            final Enquiry enquiry = enquiries.remove();
+            enquiry.getCustomer().reply("Have you tried turning it off and on again?");
+        }
+        }
 
     public static void main(String[] args) {
         HelpDesk helpDesk = new HelpDesk();
