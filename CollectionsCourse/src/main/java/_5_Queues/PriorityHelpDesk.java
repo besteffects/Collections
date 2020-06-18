@@ -1,10 +1,19 @@
 package _5_Queues;
 
-import java.util.ArrayDeque;
+import java.util.Comparator;
+import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class PriorityHelpDesk {
-    private Queue<Enquiry> enquiries = new ArrayDeque<>();
+
+    private static final Comparator<Enquiry> BY_CATEGORY = new Comparator<Enquiry>() {
+        @Override
+        public int compare(final Enquiry o1, final Enquiry o2) {
+            return o1.getCategory().compareTo(o2.getCategory());
+        }
+    };
+
+    private Queue<Enquiry> enquiries = new PriorityQueue<>(BY_CATEGORY);
 
     public void enquire(final Customer customer, final Category type) {
         enquiries.offer(new Enquiry(customer, type));
