@@ -16,19 +16,19 @@ public class CalculatorTest {
 
     @Test
     public void shouldSupportAdding() {
-        int result = calculator.evaluate("1+2");
+        int result = calculator.evaluate("1 + 2");
         assertEquals(3, result);
     }
 
     @Test
     public void shouldSupportSubstruction() {
-        int result = calculator.evaluate("1-2");
+        int result = calculator.evaluate("1 - 2");
         assertEquals(-1, result);
     }
 
     @Test
     public void shouldComplexStatements() {
-        int result = calculator.evaluate("1-3+2+4");
+        int result = calculator.evaluate("1 - 3 + 2 + 4");
         assertEquals(4, result);
     }
 }

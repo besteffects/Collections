@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbeb4b68-d6ee-4227-b8d4-681960c32f55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_5_Queues/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/demo/CalculatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_5_Queues/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_5_Queues/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demo/CalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demo/CalculatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -154,24 +153,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="396">
+              <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
               <folding>
-                <element signature="e#105#106#0" expanded="true" />
-                <element signature="e#128#129#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/demo/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="308">
+              <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -279,8 +277,8 @@
         <option value="$PROJECT_DIR$/src/main/java/_5_Queues/HelpDesk.java" />
         <option value="$PROJECT_DIR$/src/main/java/_5_Queues/CategorisedHelpDesk.java" />
         <option value="$PROJECT_DIR$/src/main/java/_5_Queues/PriorityHelpDesk.java" />
-        <option value="$PROJECT_DIR$/src/main/java/_5_Queues/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/demo/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_5_Queues/Calculator.java" />
       </list>
     </option>
   </component>
@@ -429,7 +427,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CategorisedHelpDesk">
+  <component name="RunManager" selected="JUnit.CalculatorTest">
     <configuration name="CategorisedHelpDesk" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_5_Queues.CategorisedHelpDesk" />
       <module name="CollectionsCourse.main" />
@@ -456,6 +454,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CollectionsCourse.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.shouldSupportAdding" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CollectionsCourse.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="demo" />
+      <option name="MAIN_CLASS_NAME" value="demo.CalculatorTest" />
+      <option name="METHOD_NAME" value="shouldSupportAdding" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProductCatalogueTest.shouldFindHeavyVanProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CollectionsCourse.test" />
       <extension name="coverage">
@@ -472,45 +501,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductCatalogueTest.shouldFindLightVanProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CollectionsCourse.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.ProductCatalogueTest" />
-      <option name="METHOD_NAME" value="shouldFindLightVanProducts" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductCatalogueTest.treeShouldOnlyHoldUniqueProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CollectionsCourse.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="demo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="demo" />
-      <option name="MAIN_CLASS_NAME" value="demo.ProductCatalogueTest" />
-      <option name="METHOD_NAME" value="treeShouldOnlyHoldUniqueProducts" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest" />
+        <item itemvalue="JUnit.CalculatorTest.shouldSupportAdding" />
         <item itemvalue="Application.CategorisedHelpDesk" />
         <item itemvalue="Application.HelpDesk" />
         <item itemvalue="JUnit.ProductCatalogueTest.shouldFindHeavyVanProducts" />
-        <item itemvalue="JUnit.ProductCatalogueTest.shouldFindLightVanProducts" />
-        <item itemvalue="JUnit.ProductCatalogueTest.treeShouldOnlyHoldUniqueProducts" />
       </list>
     </recent_temporary>
   </component>
@@ -528,15 +525,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductCatalogueTest - 2020.06.16 at 18h 01m 55s.xml">
-      <configuration name="ProductCatalogueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductCatalogueTest - 2020.06.16 at 18h 03m 02s.xml">
-      <configuration name="ProductCatalogueTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProductCatalogueTest - 2020.06.16 at 18h 03m 34s.xml">
-      <configuration name="ProductCatalogueTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProductCatalogueTest - 2020.06.16 at 18h 06m 00s.xml">
       <configuration name="ProductCatalogueTest" configurationId="JUnit" />
     </history-entry>
@@ -558,6 +546,15 @@
     <history-entry file="ProductCatalogueTest_treeShouldOnlyHoldUniqueProducts - 2020.06.17 at 02h 53m 51s.xml">
       <configuration name="ProductCatalogueTest.treeShouldOnlyHoldUniqueProducts" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CalculatorTest_shouldSupportAdding - 2020.06.18 at 21h 34m 59s.xml">
+      <configuration name="CalculatorTest.shouldSupportAdding" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2020.06.18 at 21h 35m 14s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2020.06.18 at 21h 36m 32s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -572,7 +569,7 @@
     <frame x="704" y="23" width="736" height="806" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.21325648" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49895614" visible="true" weight="0.076368876" />
       <window_info id="Structure" order="1" sideWeight="0.50104386" side_tool="true" weight="0.25385696" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -581,12 +578,12 @@
       <window_info id="Favorites" order="6" sideWeight="0.50104386" side_tool="true" weight="0.25385696" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32913166" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.15966387" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2927171" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.16246499" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913166" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.16946779" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.16946779" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49929875" weight="0.32913166" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50070125" side_tool="true" weight="0.32913166" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32913166" />
@@ -971,21 +968,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/demo/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="308">
+          <caret line="30" column="54" selection-start-line="30" selection-start-column="54" selection-end-line="30" selection-end-column="54" />
           <folding>
-            <element signature="e#105#106#0" expanded="true" />
-            <element signature="e#128#129#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/demo/CalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/_5_Queues/Calculator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="396">
+          <caret line="40" column="20" selection-start-line="40" selection-start-column="20" selection-end-line="40" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
