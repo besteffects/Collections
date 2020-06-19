@@ -16,7 +16,7 @@ public class Calculator {
         for (String token : tokens) {
             stack.add(token);
         }
-
+//loop around and reduce the stack inside with pop()
         while (stack.size() > 1) {
             //1
             final int left = parseInt(stack.pop()); //pop removes an element
@@ -34,7 +34,7 @@ public class Calculator {
                     result = left - right;
                     break;
             }
-
+//put result value back to stack
             stack.push(String.valueOf(result));
         }
 //one element in stack is left. We take it and convert to Integer
