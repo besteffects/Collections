@@ -7,7 +7,7 @@ import java.util.Random;
 
 public class LookupTableComparison {
     private static final int ITERATIONS = 5;
-    private static final int NUMBER_OF_PRODUCTS = 20_000;
+    private static final int NUMBER_OF_PRODUCTS = 20_000; //adding 20000 products into array
 
     private static final List<ProductMap> products = generateProducts();
 
@@ -15,7 +15,7 @@ public class LookupTableComparison {
         runLookups(new MapProductLookupTable());
         runLookups(new NaiveProductLookupTable());
     }
-
+//Creating 20000 of products
     private static List<ProductMap> generateProducts() {
         final List<ProductMap> products = new ArrayList<>();
         final Random weightGenerator = new Random();
@@ -27,7 +27,7 @@ public class LookupTableComparison {
         Collections.shuffle(products);
         return products;
     }
-
+//repeatedly puttin products into map implementations
     private static void runLookups(final ProductLookupTable lookupTable) {
         final List<ProductMap> products = LookupTableComparison.products;
         System.out.println("Running lookups with " + lookupTable.getClass().getSimpleName());
