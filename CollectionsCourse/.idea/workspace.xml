@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbeb4b68-d6ee-4227-b8d4-681960c32f55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_7_CollectionOperations/Rotate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/_7_CollectionOperations/ShoppingBasket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -141,13 +141,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/_7_CollectionOperations/Rotate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="411">
               <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/_7_CollectionOperations/ShoppingBasket.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#412#413#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -189,15 +203,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="279">
               <caret line="33" column="25" selection-start-line="32" selection-start-column="8" selection-end-line="35" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/_6_Maps/ProductFixturesMap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -280,6 +285,7 @@
         <option value="$PROJECT_DIR$/src/main/java/_6_Maps/BadHash.java" />
         <option value="$PROJECT_DIR$/src/main/java/_6_Maps/TreeMapEg.java" />
         <option value="$PROJECT_DIR$/src/main/java/_7_CollectionOperations/Rotate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/_7_CollectionOperations/ShoppingBasket.java" />
       </list>
     </option>
   </component>
@@ -601,13 +607,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/java-fundamentals-collections/04/demos/src/test/java/com/monotonic/collections/ProductFixtures.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/java-fundamentals-collections/04/demos/src/main/java/com/monotonic/collections/_4_sets/ProductCatalogue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -1067,6 +1066,18 @@
           <caret line="39" column="50" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/_7_CollectionOperations/ShoppingBasket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
           </folding>
         </state>
       </provider>
