@@ -26,5 +26,16 @@ public class Java8Enhancements {
         System.out.println(result1);
         System.out.println(idToProduct.get(10));
         System.out.println();
+
+        //raplacing a value in a map
+        ProductMap result2 =idToProduct.replace(1, new ProductMap(1,"Big Door",50));
+        System.out.println(result2);
+        System.out.println(idToProduct.get(1));
+
+        //replaceAll
+        idToProduct.replaceAll((key, oldProduct) ->
+                new ProductMap(oldProduct.getId(), oldProduct.getName(), oldProduct.getWeight() + 10));
+        System.out.println(idToProduct);
+        System.out.println();
     }
 }
