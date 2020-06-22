@@ -37,5 +37,19 @@ public class Java8Enhancements {
                 new ProductMap(oldProduct.getId(), oldProduct.getName(), oldProduct.getWeight() + 10));
         System.out.println(idToProduct);
         System.out.println();
+
+        //if the value is in a map - return it, if it is missing call this function and produce a new value
+        ProductMap result4= idToProduct.computeIfAbsent(10, (id) -> new ProductMap(id, "Custom Product", 10));
+        System.out.println(result4);
+        System.out.println(idToProduct.get(10));
+
+        System.out.println(idToProduct);
+
+        //iterating a map with foreach
+        idToProduct.forEach((key,value) ->
+        {
+            System.out.println(key+ " -> " +value);
+        });
+
     }
 }
