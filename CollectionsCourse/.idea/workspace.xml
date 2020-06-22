@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbeb4b68-d6ee-4227-b8d4-681960c32f55" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/_7_CollectionOperations/ShoppingBasket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/_7_CollectionOperations/ShoppingBasket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/_7_CollectionOperations/ShoppingBasket.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -156,12 +155,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/_7_CollectionOperations/ShoppingBasket.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="27" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="27" />
+            <state relative-caret-position="212">
+              <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+                <element signature="e#549#550#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -442,22 +441,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Rotate">
+  <component name="RunManager" selected="Application.ShoppingBasket">
     <configuration name="Java8Enhancements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_6_Maps.Java8Enhancements" />
-      <module name="CollectionsCourse.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="_6_Maps.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LookupTableComparison" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="_6_Maps.LookupTableComparison" />
       <module name="CollectionsCourse.main" />
       <extension name="coverage">
         <pattern>
@@ -495,6 +481,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShoppingBasket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="_7_CollectionOperations.ShoppingBasket" />
+      <module name="CollectionsCourse.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="_7_CollectionOperations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ViewsOverMaps" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="_6_Maps.ViewsOverMaps" />
       <module name="CollectionsCourse.main" />
@@ -510,11 +509,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShoppingBasket" />
         <item itemvalue="Application.Rotate" />
         <item itemvalue="Application.MutableHashMapKeys" />
         <item itemvalue="Application.Java8Enhancements" />
         <item itemvalue="Application.ViewsOverMaps" />
-        <item itemvalue="Application.LookupTableComparison" />
       </list>
     </recent_temporary>
   </component>
@@ -1072,12 +1071,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/_7_CollectionOperations/ShoppingBasket.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="27" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="27" />
+        <state relative-caret-position="212">
+          <caret line="22" column="51" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
           </folding>
         </state>
       </provider>
